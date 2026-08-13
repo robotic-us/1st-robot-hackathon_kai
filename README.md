@@ -18,6 +18,8 @@
 - `hackathon_manuals/`, `participant-guide/`: 참가자 및 장비 문서
 - `phorce_studio_20260804/`: 대회 당시 제공된 phorce Studio
 - `archive/downloads/`: 행사 종료 시점에 남아 있던 배포 번들과 중간 산출물
+- `archive/legacy-emmc/`: 내부 eMMC에 남아 있던 이전 버전 자료
+- `archive/runtime/`: 보존 가치가 있는 실제 실행 기록
 - `vendor/sam2/`: 당시 사용한 SAM2 버전을 가리키는 Git 서브모듈
 
 자세한 보존 범위와 제외 항목은 `ARCHIVE_MANIFEST.md`를 참고하세요.
