@@ -1,0 +1,10 @@
+# Initial fixed-camera YOLO detection dataset.
+# A frame may legitimately have no black_wire annotation when it is outside view.
+path: /home/phorce/hackathon/soldering_robot_ws/data/soldering_objects_initial
+train: images/train
+val: images/val
+
+names:
+  0: red_wire
+  1: black_wire
+  2: iron

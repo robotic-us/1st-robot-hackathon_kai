@@ -1,0 +1,3 @@
+slot_id,name,phact_node,axis_index,start_deg,yd_deg,L_trajectory,s0,sd,purpose
+2,axis7_plus_2deg,9,7,112.300,114.3,2000,0,0,small_positive_displacement_after_arming
+3,axis7_return,9,7,114.3,112.3,2000,0,0,return_to_post_arming_start

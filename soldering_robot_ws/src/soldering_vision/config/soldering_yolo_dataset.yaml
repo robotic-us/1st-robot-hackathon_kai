@@ -1,0 +1,14 @@
+# Ultralytics segmentation dataset layout.
+path: /replace/with/soldering_yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: fixed_wire
+  1: moving_wire
+  2: iron_tip
+  3: solder_wire
+  4: solder_joint
+  5: insulation
+  6: copper

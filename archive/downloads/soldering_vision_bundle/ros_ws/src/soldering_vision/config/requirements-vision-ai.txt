@@ -1,0 +1,4 @@
+# The Jetson-specific torch/torchvision wheels are installed separately.
+# Do not let pip replace them with generic wheels.
+ultralytics>=8.3,<9
+wandb>=0.22.3,<1

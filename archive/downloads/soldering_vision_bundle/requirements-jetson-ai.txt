@@ -1,0 +1,7 @@
+# JetPack 6.2.1 / CUDA 12.6 ARM64 wheels.
+# Install inside the project venv created with --system-site-packages so ROS 2
+# packages from /opt/ros/humble and Ubuntu's OpenCV remain available.
+--index-url https://pypi.jetson-ai-lab.io/jp6/cu126
+
+torch==2.8.0
+torchvision==0.23.0

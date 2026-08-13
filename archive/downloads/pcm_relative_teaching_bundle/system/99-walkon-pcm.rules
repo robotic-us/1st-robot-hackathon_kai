@@ -1,0 +1,2 @@
+# Give the local robot operator stable access to the dedicated PCM CDC port.
+SUBSYSTEM=="tty", KERNEL=="ttyACM*", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5741", OWNER="@OPERATOR@", GROUP="dialout", MODE="0660"

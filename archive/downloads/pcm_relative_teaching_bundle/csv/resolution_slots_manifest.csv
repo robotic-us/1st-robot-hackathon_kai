@@ -1,0 +1,10 @@
+slot_id,file,relative_target_deg,duration_ms,direction,purpose
+41,motion_41.csv,100,10000,positive,relative_teaching_resolution
+42,motion_42.csv,-100,10000,negative,relative_teaching_resolution
+43,motion_43.csv,10,2000,positive,relative_teaching_resolution
+44,motion_44.csv,-10,2000,negative,relative_teaching_resolution
+45,motion_45.csv,1,2000,positive,relative_teaching_resolution
+46,motion_46.csv,-1,2000,negative,relative_teaching_resolution
+47,motion_47.csv,0.1,2000,positive,relative_teaching_resolution
+48,motion_48.csv,-0.1,2000,negative,relative_teaching_resolution
+49,motion_49.csv,0,10000,return,optional_return_in_current_frame

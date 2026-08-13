@@ -1,0 +1,2 @@
+# Allow only the fixed, root-owned WalkON PCM USB-reset wrapper without a password.
+@OPERATOR@ ALL=(root) NOPASSWD: /usr/local/sbin/walkon-pcm-usb-reset

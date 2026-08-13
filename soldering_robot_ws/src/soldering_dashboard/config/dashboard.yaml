@@ -1,0 +1,8 @@
+dashboard:
+  ros__parameters:
+    motor_count: 6
+    telemetry_stale_s: 0.25
+    topic_window_s: 5.0
+    wandb_entity: "donghyeok8649-kaist"
+    wandb_project: "soldering-vision"
+    wandb_poll_s: 5.0

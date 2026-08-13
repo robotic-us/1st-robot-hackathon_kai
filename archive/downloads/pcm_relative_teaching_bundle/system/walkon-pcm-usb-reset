@@ -1,0 +1,8 @@
+#!/bin/sh
+# Root-owned, argument-free wrapper used by the narrow sudoers rule.
+if [ "$#" -ne 0 ]; then
+    echo "walkon-pcm-usb-reset takes no arguments" >&2
+    exit 2
+fi
+# usbreset identifies this PCM by USB vendor-id:product-id.
+exec /usr/bin/usbreset 0483:5741

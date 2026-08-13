@@ -1,0 +1,40 @@
+{
+  "zero_snapshot": {
+    "format_version": 2,
+    "robot_uid": "003F003E3133511832353236",
+    "known_mask": 129,
+    "zero_offset_f32_le_hex": [
+      "69913dc0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "48e1fa3f",
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "teaching_start_angles_rad": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    3.0159289474462017,
+    null,
+    null,
+    null,
+    null
+  ],
+  "motion_sha256": "279ac98835cf9e8b8bfc74f604a96e927f971452cd6f11e9bb904e90c9afd514",
+  "schema": 2,
+  "slot_id": 1,
+  "updated": "2026-08-04T16:52:30",
+  "memo": "테스트"
+}

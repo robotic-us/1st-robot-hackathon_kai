@@ -1,0 +1,8 @@
+ready
+contact_good
+solder_good
+insufficient
+excess
+misaligned
+occluded
+unsafe

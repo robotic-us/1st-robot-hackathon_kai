@@ -1,0 +1,7 @@
+﻿robot_id,3,,,,,,,,,,,,,,
+file_version,2.2.1,,,,,,,,,,,,,,
+State ID,State Name,Motion Set ID,Action ID,,,,Tablet Mode ID,Time Out[ms],Default Target State ID,Exit Condition ID,Target State ID,x-position,y-position,x-size,y-size
+,,,LED ID,Audio ID,Tablet Msg ID,Empty,,,,,,,,,
+0,Initial,0,0,0,0,0,0,0,0,1,1,102,94,80,80
+1,Motion Gen,1,0,0,0,0,0,0,0,2,0,102,94,80,80
+2,Motion2,2,0,0,0,0,0,0,0,1,"31, 48, 49, 50, 51, 65, 1",102,94,80,80

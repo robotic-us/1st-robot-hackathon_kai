@@ -1,0 +1,15 @@
+# Operations accepted by the persistent PCM session daemon.
+uint8 RELATIVE_SLOT=1
+uint8 PLAY_SLOT=2
+uint8 ARM=3
+uint8 STOP=4
+uint8 RECONNECT=5
+
+uint8 operation
+uint16 slot_id
+uint8[] axes
+uint16 repeat
+---
+bool accepted
+uint64 job_id
+string message

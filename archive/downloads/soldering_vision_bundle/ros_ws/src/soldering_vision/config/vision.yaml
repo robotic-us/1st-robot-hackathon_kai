@@ -1,0 +1,39 @@
+camera:
+  ros__parameters:
+    video_device: "/dev/video0"
+    framerate: 30.0
+    io_method: "mmap"
+    frame_id: "workspace_camera"
+    pixel_format: "mjpeg2rgb"
+    av_device_format: "YUV422P"
+    image_width: 1280
+    image_height: 720
+    camera_name: "soldering_workspace"
+    camera_info_url: ""
+    auto_white_balance: false
+    white_balance: 4500
+    autoexposure: false
+    exposure: 120
+    autofocus: false
+    focus: -1
+
+vision_observer:
+  ros__parameters:
+    image_topic: "/camera/image_raw"
+    detector_backend: "heuristic"
+    yolo_model: ""
+    device: "0"
+    yolo_image_size: 640
+    confidence_min: 0.55
+    yolo_iou: 0.50
+    class_aliases_json: "{}"
+    inference_hz: 10.0
+    publish_annotated: true
+    convnext_model: ""
+    convnext_device: "cuda"
+    process_confidence_min: 0.65
+    # Replace with pixel->work-plane-mm homography after calibration.
+    homography_valid: false
+    homography: [1.0, 0.0, 0.0,
+                 0.0, 1.0, 0.0,
+                 0.0, 0.0, 1.0]

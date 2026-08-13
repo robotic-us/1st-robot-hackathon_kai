@@ -1,0 +1,10 @@
+# 100-frame fixed-camera YOLO segmentation dataset.
+# black_wire is a valid class but is absent when outside the camera frame.
+path: /home/phorce/hackathon/soldering_robot_ws/data/soldering_objects_seg_100
+train: images/train
+val: images/val
+
+names:
+  0: red_wire
+  1: black_wire
+  2: iron
